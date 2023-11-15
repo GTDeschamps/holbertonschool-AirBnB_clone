@@ -40,11 +40,11 @@
   }
 
   .popover {
-	/*display: none;*/
+	display: none;
 	position: absolute;
 	top: 100%;
 	left: 0;
-	height: 250px;
+	height: 200px;
 	background-color: #fafafa;
 	border: 1px solid #ddd;
 	border-radius: 4px;
@@ -88,4 +88,10 @@
 	margin-top: 0px;
 	font-weight: 400;
 	font-size: 14px;
+}
+
+.popover li{
+	list-style: none;
+	padding: 0;
+	margin: 10px;
 }
